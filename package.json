@@ -1,45 +1,43 @@
 {
-    "name": "ws3-fca",
-    "version": "1.0.2-release",
-    "description": "It stands for Facebook Chat API.",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/NethWs3Dev/ws3-fca"
-    },
-    "author": "Kenneth Aceberos",
-    "license": "MIT",
-    "bugs": {
-        "url": ""
-    },
-    "homepage": "",
-    "keywords": [
-        "facebook",
-        "chat",
-        "api",
-        "fca",
-        "wiegine",
-        "ws3-chat-api",
-        "ws3-fca"
-    ],
-    "dependencies": {
-        "axios": "^1.6.5",
-        "bluebird": "^3.7.2",
-        "cheerio": "^0.22.0",
-        "https-proxy-agent": "^4.0.0",
-        "mqtt": "^3.0.0",
-        "request": "^2.88.2",
-        "websocket-stream": "^5.5.0"
-    },
-    "devDependencies": {
-        "eslint": "^7.5.0",
-        "mocha": "^7.0.1",
-        "prettier": "^1.11.1"
-    },
-    "engines": {
-        "node": ">=10.x"
-    }
+  "name": "mahmud-fca",
+  "version": "1.0.7",
+  "description": "Custom Facebook Chat API modified and maintained by MahMUD.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/mahmud-fca"
+  },
+  "author": "MahMUD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/mahmud-fca/issues"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/mahmud-fca#readme",
+  "keywords": [
+    "facebook",
+    "chat",
+    "api",
+    "fca",
+    "mahmud-fca"
+  ],
+  "dependencies": {
+    "axios": "^1.6.5",
+    "bluebird": "^3.7.2",
+    "cheerio": "^0.22.0",
+    "https-proxy-agent": "^4.0.0",
+    "mqtt": "^3.0.0",
+    "request": "^2.88.2",
+    "websocket-stream": "^5.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "mocha": "^7.0.1",
+    "prettier": "^1.11.1"
+  },
+  "engines": {
+    "node": ">=10.x"
+  }
 }
