@@ -1,6 +1,6 @@
 {
   "name": "mahmud-fca",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "Facebook Chat API - Send messages, listen to chats, manage threads and more. Made by MahMUD.",
   "main": "index.js",
   "scripts": {
