@@ -1,6 +1,6 @@
 {
   "name": "mahmud-fca",
-  "version": "1.0.8",
+  "version": "1.0.7",
   "description": "Facebook Chat API made by MahMUD.",
   "main": "index.js",
   "scripts": {
