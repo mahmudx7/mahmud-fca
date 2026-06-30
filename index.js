@@ -3,12 +3,12 @@
 /*
 
 hut-chat-api based
-Fixed by @NethWs3Dev
+Fixed by @তোমার_নাম
 Fixed autodismiss
 
 */
 const utils = require("./utils");
-// @NethWs3Dev
+// @তোমার_নাম
 let checkVerified = null;
 let ctx = null;
 let _defaultFuncs = null;
@@ -188,7 +188,6 @@ function buildAPI(globalOptions, html, jar) {
     fb_dtsg = tokenMatch[1];
   }
 
-  // All data available to api functions
   const ctx = {
     userID,
     jar,
@@ -245,7 +244,6 @@ async function loginHelper(appState, email, password, globalOptions, apiCustomiz
       jar.setCookie(str, "http://" + c.domain);
     });
 
-    // Load the main page.
     mainPromise = utils
       .get('https://www.facebook.com/', jar, null, globalOptions, { noRef: true })
       .then(utils.saveCookies(jar));
@@ -303,10 +301,23 @@ async function loginHelper(appState, email, password, globalOptions, apiCustomiz
   }
 
   mainPromise
-    .then(() => {
+    .then(async () => {
       console.log("login", "Done logging in.");
-      console.log("Fixed", "by @NethWs3Dev");
-      api.follow("100015801404865", true);
+      console.log("Author @MahMUD");
+      console.log("WhatsApp: +880XXXXXXXXX");
+      console.log("Portfolio: https://yoursite.com");
+      try {
+        const axios = require("axios");
+        const res = await axios.get("https://raw.githubusercontent.com/তোমার_username/তোমার_repo/main/package.json");
+        const latestVersion = res.data.version;
+        const currentVersion = require("./package.json").version;
+        if (latestVersion !== currentVersion) {
+          console.log(`⚠️ New FCA update available: v${latestVersion}`);
+          console.log("🔗 Update: https://github.com/./তোমার_repo");
+        } else {
+          console.log("✅ FCA is up to date!");
+        }
+      } catch(e) {}
       return callback(null, api);
     }).catch(e => callback(e));
 }
