@@ -3,12 +3,12 @@
 /*
 
 hut-chat-api based
-Fixed by @তোমার_নাম
+Author by @MahMUD
 Fixed autodismiss
 
 */
 const utils = require("./utils");
-// @তোমার_নাম
+// @MahMUD
 let checkVerified = null;
 let ctx = null;
 let _defaultFuncs = null;
@@ -304,16 +304,16 @@ async function loginHelper(appState, email, password, globalOptions, apiCustomiz
     .then(async () => {
       console.log("login", "Done logging in.");
       console.log("Author @MahMUD");
-      console.log("WhatsApp: +880XXXXXXXXX");
-      console.log("Portfolio: https://yoursite.com");
+      console.log("WhatsApp: +8801836298139");
+      console.log("Portfolio: https://mahmud-exe.onrender.com");
       try {
         const axios = require("axios");
-        const res = await axios.get("https://raw.githubusercontent.com/তোমার_username/তোমার_repo/main/package.json");
+        const res = await axios.get("https://raw.githubusercontent.com/mahmudx7/mahmud-fca/main/package.json");
         const latestVersion = res.data.version;
         const currentVersion = require("./package.json").version;
         if (latestVersion !== currentVersion) {
           console.log(`⚠️ New FCA update available: v${latestVersion}`);
-          console.log("🔗 Update: https://github.com/./তোমার_repo");
+          console.log("🔗 Update: https://github.com/mahmudx7/mahmud-fca");
         } else {
           console.log("✅ FCA is up to date!");
         }
