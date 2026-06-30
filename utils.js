@@ -4,7 +4,7 @@
 
 let request = require("request").defaults({ jar: true });
 const stream = require("stream");
-// @NethWs3Dev
+// @MahMUD
 const querystring = require("querystring");
 const url = require("url");
 
