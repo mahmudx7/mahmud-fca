@@ -312,7 +312,7 @@ async function loginHelper(appState, email, password, globalOptions, apiCustomiz
         const latestVersion = res.data.version;
         const currentVersion = require("./package.json").version;
         if (latestVersion !== currentVersion) {
-          console.log(`⚠️ New FCA update available: v${latestVersion}`);
+          console.log(`⚠️ FCA New Version update available: v${latestVersion}`);
           console.log("🔗 Update: https://github.com/mahmudx7/mahmud-fca");
         } else {
           console.log("✅ FCA is up to date!");
