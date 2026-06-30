@@ -1,4 +1,4 @@
-# mahmud-fca 🪽
+# mahmud-fca 
 
 > A modified & improved Facebook Chat API — Fixed and maintained by [@mahmudx7](https://github.com/mahmudx7)
 
