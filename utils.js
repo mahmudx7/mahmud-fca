@@ -1,5 +1,3 @@
-
- /* eslint-disable no-prototype-builtins */
 "use strict";
 
 let request = require("request").defaults({ jar: true });
