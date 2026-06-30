@@ -1,6 +1,6 @@
 {
   "name": "mahmud-fca",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Facebook Chat API made by MahMUD.",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,16 @@
     "chat",
     "api",
     "fca",
-    "mahmud-fca"
-  ],
+    "mahmud-fca",
+    "messenger",
+    "bot",
+    "automation",
+    "facebook-messenger",
+    "facebook-chat",
+    "messenger-bot",
+    "realtime",
+    "messaging"
+    ],
   "dependencies": {
     "axios": "^1.6.5",
     "bluebird": "^3.7.2",
