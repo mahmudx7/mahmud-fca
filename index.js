@@ -83,6 +83,7 @@ let isBehavior = false;
 async function bypassAutoBehavior(resp, jar, globalOptions, appstate, ID) {
   try {
     const appstateCUser = (appstate.find(i => i.key == 'c_user') || appstate.find(i => i.key == 'i_user'))
+    if (!appstateCUser) return;
     const UID = ID || appstateCUser.value;
     const FormBypass = {
       av: UID,
@@ -357,7 +358,7 @@ async function login(loginData, options = {}, callback) {
             loginws3();
           }
           console.error("login", loginError);
-          callback(loginError);
+          return callback(loginError);
         }
         callback(null, loginApi);
       });
